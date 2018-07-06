@@ -19,5 +19,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+#    path('accounts/login/$', views.login, name='login'),
     path('', include('recipe.urls')),
     ]
