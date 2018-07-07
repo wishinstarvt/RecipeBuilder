@@ -44,3 +44,15 @@ h1, h2, h3, h4 {
 .recipe h1 a, .recipe h1 a:visited {
     color: #000000;
 }
+
+#div_id_servings {
+
+    max-width: 61px;
+    float: right;
+
+}
+
+#div_id_title {
+    width: calc(100% - 70px);
+    display: inline-block;
+}

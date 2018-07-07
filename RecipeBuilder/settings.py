@@ -26,12 +26,14 @@ SECRET_KEY = '#6g*-tl2!fss&7&3!2xep9ev20-oyfng0v6_7ayc18l0%83fr9'
 DEBUG = True
 
 ALLOWED_HOSTS = ['python-website-488838420.us-west-2.elb.amazonaws.com', '10.0.1.178' ]
+
 LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
 INSTALLED_APPS = [
     'recipe',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'RecipeBuilder.wsgi.application'
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 # Database
